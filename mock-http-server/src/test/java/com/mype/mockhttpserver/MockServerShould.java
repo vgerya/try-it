@@ -84,7 +84,7 @@ public class MockServerShould {
                 .when(
                     HttpRequest.request()
                         .withMethod("GET")
-                        .withPath("api/latest.json")
+                        .withPath("/api/latest.json")
                         .withQueryStringParameter(new Parameter("app_id", "61f213c43dcf4ac199c031931d3020d1")))
                 .respond(
                         HttpResponse.response()
