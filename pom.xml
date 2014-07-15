@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>mock-http-server</module>
+        <module>spring-scheduling</module>
     </modules>
     <packaging>pom</packaging>
 
